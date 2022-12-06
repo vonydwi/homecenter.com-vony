@@ -1,0 +1,203 @@
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.nav-item {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.nav-item .nav-link.active {
+    font-weight: 600;
+    color: #DCDE69 !important;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: #DCDE69 !important;
+}
+
+/* Hero Section */
+.hero-section {
+    margin-top: 45px;
+}
+.hero-section h1 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.hero-section .btn-cta img {
+    width: 49px;
+}
+/* Akhir Hero Section */
+
+.section-title {
+    border-bottom: 3px solid #000000;
+    width: 20%;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+
+}
+
+/* Categories */
+.tag{
+    z-index: 4;
+    background-color: #DCDE69
+    padding: .20rem 1.25rem;
+    position :absolute;
+    bottom: 0;
+    left: 8px;
+    border-radius: 30px 30px 30px 30px;
+    min-height: 30px;
+}
+
+.tag span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+}
+
+.categories-thumbnail {
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+    position: relative;
+}
+
+.categories-thumbnail:hover .categories-img {
+    transform: scale(1.1);
+}
+
+.categories-img {
+    width: 100%;
+    height: 100%;
+    background-position:center; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    transition: all 0,3s ease;
+    color: #000000;
+}
+
+.section-title {
+    color: #CC1D1D;
+}
+
+/* Tutup Categories */
+
+/* Trend Type */
+.Trend-Type {
+    padding-top: 50px;
+    padding-bottom: 36px;
+    background: rgba(23, 25, 56, 0.06);  
+}
+
+.component-products {
+    margin-top: 50px;
+    margin-bottom: 36px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: #000000;
+    padding-bottom: 15px;
+    transition: all 0,2s ease-in-out;
+}
+
+.component-products:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+.product-img {
+    padding: 0,5rem;
+    border-radius: 8px 8px;
+    background-color: #F6FAFD;
+    transition: all 0,3s ease;
+}
+
+.products-text {
+    font-family:'Poppins' ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.products-moreinfo {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    z-index: 3;
+    text-align: center;
+    background-color: #741BBA;
+    padding: .20rem 1.25rem;
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+    min-height: 30px;
+
+}
+/* Tutup Trend Type */
+
+/* Footer */
+.footer {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    background-color: #F5F4F5;
+}
+
+.footer h2 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size:36px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.footer h5 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size:18px;
+    color: #000000;
+}
+
+.footer p {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+    color: #808080;
+}
+
+.footer-small {
+    background-color: #213362;
+    text-align: center;
+}
+
+.footer-small p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+
+.footer-small a {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #DCDE69 ;
+}
+
+/* Tutup Footer */
